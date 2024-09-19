@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Endereço por CEP</title>
+    <link rel="stylesheet" href="partc.css">
+</head>
+<body>
+    <img src="/background.png" alt="">
+    <div class="container">
+        <h1>Buscar Endereço pelo CEP</h1>
+        <form id="cepForm">
+            <label for="cep">CEP:</label>
+            <input type="number" id="cep" name="cep" maxlength="8" required>
+            <button id="buscar" type="submit">Buscar</button>
+        </form>
+        <div id="address">
+            <span><strong>Rua:</strong> <p id="logradouro"></p></span>
+            <span><strong>Bairro:</strong> <p id="bairro"></p></span>
+            <span><strong>Cidade:</strong> <p id="localidade"></p></span>
+            <span><strong>Estado:</strong> <p id="uf"></p></span>
+        </div>
+    </div>
+</body>
+    <script src="./partj.js"></script>
+</html>
